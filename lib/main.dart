@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tourism/app.dart';
 import 'package:tourism/screens/location_details/location_details.dart';
 
 void main() => runApp(MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: LocationDetails(),
+      home: App(),
     );
   }
 }
