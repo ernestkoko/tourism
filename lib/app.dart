@@ -18,7 +18,7 @@ class App extends StatelessWidget {
       theme: _theme(),
     );
   }
-
+// stating the routes for click events
   RouteFactory _routes() {
     return (settings) {
       final Map<String, dynamic> arguments = settings.arguments;
@@ -38,6 +38,8 @@ class App extends StatelessWidget {
     };
   }
 
+
+  //stating the different themes
   ThemeData _theme() {
     return ThemeData(
       appBarTheme: AppBarTheme(
